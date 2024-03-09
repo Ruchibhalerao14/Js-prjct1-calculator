@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator MicroProject3</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="container">
+        <!-- first div -->
+        <form>
+         
+        <div class="box1">
+            <input type="text"name="txtbox" id="display" >
+        </div>
+
+        <!-- scnd div -->
+        <div class="buttonfields">
+            
+            <div >
+                <input type="button" value="7" onclick =" txtbox.value+='7'">
+                <input type="button" value="8" onclick =" txtbox.value+='8'">
+                <input type="button" value="9" onclick =" txtbox.value+='9'">
+                <input type="button" value="DEL" id="bttndel" onclick="del()">
+            </div>
+
+            <div class=>
+                <input type="button" value="4"onclick =" txtbox.value+='4'">
+                <input type="button" value="5"onclick =" txtbox.value+='5'">
+                <input type="button" value="6"onclick =" txtbox.value+='6'">
+                <input type="button" value="+"onclick =" txtbox.value+='+'">
+            </div>
+
+            <div >
+                <input type="button" value="1" onclick =" txtbox.value+='1'">
+                <input type="button" value="2"onclick =" txtbox.value+='2'">
+                <input type="button" value="3"onclick =" txtbox.value+='3'">
+                <input type="button" value="-"onclick =" txtbox.value+='-'">
+            </div>
+
+            
+            <div>
+                <input type="button" value="."onclick =" txtbox.value+='.'">
+                <input type="button" value="0"onclick =" txtbox.value+='0'">
+                <input type="button" value="/"onclick =" txtbox.value+='/'" >
+                <input type="button" value="x"onclick =" txtbox.value+='*'">
+
+            </div>
+
+            <div class="fifth">
+                <button type="reset" id="bbtn1" class="reset"> RESET</button>
+                <input type="button" value="=" class="result" onclick="res()">
+
+            </div>
+
+           
+
+        </div >
+        
+        
+        </form>
+        </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
